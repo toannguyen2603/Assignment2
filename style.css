@@ -209,7 +209,7 @@
     align-items: center;
 }
 
-.about-header h1 {
+h1 {
     font-weight: 700;
     font-size: 35px;
     text-transform: uppercase;
@@ -321,6 +321,52 @@
 .m6::after{
     background-color: #1be9d8;
 }
+
+.education {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    width: 100%;
+    height: 100vh;
+}
+.education h1 {
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+
+.wrap-educate {
+    position: relative;
+    background-image: url(https://media.istockphoto.com/photos/vector-hexagons-pattern-geometric-abstract-background-with-simple-picture-id1307794659?b=1&k=20&m=1307794659&s=170667a&w=0&h=8utxIGEIgxxX_rUGxa5DtS7MQIaCHvQjt1eBrU28lEg=);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 90%;
+    border-radius: 40px;
+}
+
+
+.logoUIT {
+    width: 300px;
+    height: 320px;
+    overflow: hidden;
+}
+
+.logoUIT img {
+    width: 100%;
+    height: 100%;
+    object-fit:fill;
+    opacity: 0.5;
+}
+
+.content-educate {
+    position: absolute;
+}
+
+
 
 
 
