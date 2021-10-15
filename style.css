@@ -77,7 +77,7 @@
     margin: 0 0 15px 0;
     list-style: none;
     text-transform: uppercase;
-    letter-spacing: 1px;    
+    letter-spacing: 1px;  
 }
 
 .navbar ul li a {
@@ -87,10 +87,23 @@
     color: #000;
 }
 
-.navbar ul li a:hover {
+.navbar ul li a:hover{
     color: rgb(8, 140, 248);
     text-decoration:underline;
 }
+
+.navi a {
+    cursor: pointer;
+}
+
+li.activate {
+    transform: scale(1.2);
+    text-decoration: underline;
+}
+
+
+
+
 
 .footer-menu {
     border-top: 1px solid #ccc;
